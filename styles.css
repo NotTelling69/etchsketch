@@ -1,9 +1,20 @@
 /* Create the container for the boxes */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #grid-container {
     display: flex;
     flex-wrap: wrap;
     width: 800px;
     height: 800px;
+}
+
+.buttons {
+    margin-bottom: 24px;
 }
 
 /* Create each box inside the container */
