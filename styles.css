@@ -1,0 +1,15 @@
+/* Create the container for the boxes */
+#grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 800px;
+}
+
+/* Create each box inside the container */
+.cell {
+    width: calc(100% / 16);
+    height: calc(100% / 16);
+    border: 1px solid grey;
+    box-sizing: border-box;
+}
